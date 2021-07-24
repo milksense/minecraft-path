@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "tsc&& node ./dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milksense/minecraft-path.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milksense/minecraft-path/issues"
+  },
+  "homepage": "https://github.com/milksense/minecraft-path#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.1",
+    "typescript": "^4.3.5"
+  }
+}
