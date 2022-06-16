@@ -15,7 +15,9 @@ switch (os.type()) {
   case "win32":
   case "Windows_NT":
     folder = path.join(
-      process.env.APPDATA || path.join(os.homedir(), "AppData", "Roaming"),
+      process.env.APPDATA || path.join(
+        os.homedir(), "AppData", "Roaming"
+      ),
       ".minecraft"
     );
     break;
